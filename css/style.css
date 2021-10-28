@@ -85,7 +85,6 @@ header{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-content: flex-start;
         justify-content: space-between;
         
     }
@@ -112,7 +111,7 @@ header{
 
 
     body>header{
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         right: 0;
